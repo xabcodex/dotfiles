@@ -63,6 +63,8 @@ cask "dropbox"
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
+# Client for the Google Drive storage service
+cask "google-drive"
 # PDF reader and note-taking application
 cask "skim"
 # Open-source code editor
