@@ -1,18 +1,16 @@
-# Taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-
-# Brews (Packages)
 brew "ack"
 brew "autojump"
 brew "bat"
-brew "exa"
 brew "broot"
+brew "exa"
 brew "fasd"
 brew "fd"
 brew "fzf"
 brew "gcc"
+brew "git", link: false
 brew "grip"
 brew "httpie"
 brew "minimal-racket"
@@ -29,11 +27,10 @@ brew "tldr"
 brew "tmux"
 brew "tree"
 brew "xclip"
-
-# Casks (Applications)
 cask "alfred"
-cask "dropbox"
 cask "db-browser-for-sqlite"
+cask "dropbox"
+cask "gitkraken"
 cask "google-chrome"
 cask "skim"
 cask "visual-studio-code"
