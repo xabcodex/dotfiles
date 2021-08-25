@@ -2,8 +2,8 @@
 
 I'm learning about dotfiles.
 
-
 ## TODO
+
 - Terminal Preferences
 - Changed Shell to ZSH
 - Dock Preferences

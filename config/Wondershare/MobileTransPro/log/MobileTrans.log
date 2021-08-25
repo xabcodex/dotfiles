@@ -1,0 +1,2029 @@
+12/27/2020 16:54:49 
+12/27/2020 16:54:49 ===============================================
+12/27/2020 16:54:49 Program.Start Product=MobileTrans, Version=1.1.2.49
+12/27/2020 16:54:49 Operating System: Unix 20.2.0.0
+12/27/2020 16:54:49 Friendly Version: MaxOSX OS64Bits
+12/27/2020 16:54:49 Language: Spanish (Spain)
+12/27/2020 16:54:49 ProcessorCount: 8
+12/27/2020 16:54:49 iTunesVersion:0.0
+12/27/2020 16:54:49 end load languages.
+12/27/2020 16:54:49 Screen WorkingArea: 1440_826
+12/27/2020 16:54:49 Program.InitCustomize
+12/27/2020 16:54:49 end Init Customize.
+12/27/2020 16:54:49 end Init GA.
+12/27/2020 16:54:49 Init register module
+12/27/2020 16:54:49 end Init Register Module.
+12/27/2020 16:54:49 Start WAF...
+12/27/2020 16:54:50 end Start WAF.
+12/27/2020 16:54:50 end Init BugSplat.
+12/27/2020 16:54:50 end Init Environment.
+12/27/2020 16:54:50 ====MT===Record App version: 2.19.360======
+12/27/2020 16:54:50 <OnlineRatingSwitchHelper> 1
+12/27/2020 16:54:50 Program.Run
+12/27/2020 16:54:50 /Users/.Android
+12/27/2020 16:54:50 RegisterUSBDevicesNotify handle:140348910430080
+12/27/2020 16:54:50 MacMonitorTask start=============================
+12/27/2020 16:54:50 begin load...
+12/27/2020 16:54:50 Add device: 0000000000000000
+12/27/2020 16:54:50 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBVHCIBCE@80000000/Apple T2 Controller@80100000
+12/27/2020 16:54:50 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBVHCIBCE@80000000/Apple T2 Controller@80100000
+12/27/2020 16:54:50 end load...
+12/27/2020 16:54:50 <IsSwitchOpen> start parsing json...
+12/27/2020 16:54:50 <OnlineRatingSwitchHelper> 2
+12/27/2020 16:54:50 <OnlineRatingSwitchHelper> 3
+12/27/2020 16:54:50 <IsSwitchOpen> str:{"code":200,"status":"off"}
+12/27/2020 16:54:51 Read device database error:System.Data.SQLite.SQLiteException (0x80004005): SQLite error
+no such table: t_deviceinfo
+  at System.Data.SQLite.SQLite3.Prepare (System.Data.SQLite.SQLiteConnection cnn, System.String strSql, System.Data.SQLite.SQLiteStatement previous, System.UInt32 timeoutMS, System.String& strRemain) [0x00236] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.BuildNextCommand () [0x000eb] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.GetStatement (System.Int32 index) [0x0000b] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteCommand.GetStatement(int)
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x000db] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x00051] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x00006] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader (System.Data.CommandBehavior behavior) [0x00000] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x00000] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.FillInternal (System.Data.DataSet dataset, System.Data.DataTable[] datatables, System.Int32 startRecord, System.Int32 maxRecords, System.String srcTable, System.Data.IDbCommand command, System.Data.CommandBehavior behavior) [0x0003f] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable[] dataTables, System.Int32 startRecord, System.Int32 maxRecords, System.Data.IDbCommand command, System.Data.CommandBehavior behavior) [0x0007c] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00034] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter.Fill(System.Data.DataTable)
+  at jn+b.e () [0x00073] in <a4b6a698a8ac49e494da15eb2d3ea0f4>:0 
+  at jn.p (System.String A_0, System.Data.SQLite.SQLiteParameter[] A_1) [0x00044] in <a4b6a698a8ac49e494da15eb2d3ea0f4>:0 
+  at jn.h (System.String A_0) [0x0003c] in <a4b6a698a8ac49e494da15eb2d3ea0f4>:0 
+  at aec.a (ady A_0) [0x0017e] in <93f6136208d444398267215539ab4bfb>:0 
+12/27/2020 16:54:51 Screen WorkingArea: 826
+12/27/2020 16:54:51 Start check ad link
+12/27/2020 16:54:51 CheckAD: System.UriFormatException: Invalid URI: The URI is empty.
+  at System.Uri.CreateThis (System.String uri, System.Boolean dontEscape, System.UriKind uriKind) [0x0007b] in <cea77d7bab8b472da697a3b6e78ef65f>:0 
+  at System.Uri..ctor (System.String uriString) [0x00014] in <cea77d7bab8b472da697a3b6e78ef65f>:0 
+  at System.Net.WebRequest.Create (System.String requestUriString) [0x0000e] in <cea77d7bab8b472da697a3b6e78ef65f>:0 
+  at WMM.UI.Main.TransferMainForm.a (fx A_0) [0x0004f] in <b323940560f043ff82835ae593daa72c>:0 
+12/27/2020 16:54:51 ConnectionScanTask start
+12/27/2020 16:54:51 ConnectionScanTask rescan start
+12/27/2020 16:54:51 Add device: 000001
+12/27/2020 16:54:51 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 16:54:51 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 16:54:51 ConnectionScanTask rescan end
+12/27/2020 16:54:51 ConnectionScanTask End
+12/27/2020 16:54:51 Read device database error:System.Data.SQLite.SQLiteException (0x80004005): SQLite error
+no such table: t_deviceinfo
+  at System.Data.SQLite.SQLite3.Prepare (System.Data.SQLite.SQLiteConnection cnn, System.String strSql, System.Data.SQLite.SQLiteStatement previous, System.UInt32 timeoutMS, System.String& strRemain) [0x00236] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.BuildNextCommand () [0x000eb] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.GetStatement (System.Int32 index) [0x0000b] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteCommand.GetStatement(int)
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x000db] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x00051] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x00006] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader (System.Data.CommandBehavior behavior) [0x00000] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x00000] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.FillInternal (System.Data.DataSet dataset, System.Data.DataTable[] datatables, System.Int32 startRecord, System.Int32 maxRecords, System.String srcTable, System.Data.IDbCommand command, System.Data.CommandBehavior behavior) [0x0003f] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable[] dataTables, System.Int32 startRecord, System.Int32 maxRecords, System.Data.IDbCommand command, System.Data.CommandBehavior behavior) [0x0007c] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00034] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter.Fill(System.Data.DataTable)
+  at jn+b.e () [0x00073] in <a4b6a698a8ac49e494da15eb2d3ea0f4>:0 
+  at jn.p (System.String A_0, System.Data.SQLite.SQLiteParameter[] A_1) [0x00044] in <a4b6a698a8ac49e494da15eb2d3ea0f4>:0 
+  at jn.h (System.String A_0) [0x0003c] in <a4b6a698a8ac49e494da15eb2d3ea0f4>:0 
+  at aec.a (ady A_0) [0x0017e] in <93f6136208d444398267215539ab4bfb>:0 
+12/27/2020 16:54:51 Add device: 0000000000000001
+12/27/2020 16:54:51 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 16:54:51 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 16:54:51 Error
+12/27/2020 16:54:51 <Main> Scan Failed: 0
+12/27/2020 16:54:52 Read device database error:System.Data.SQLite.SQLiteException (0x80004005): SQLite error
+no such table: t_deviceinfo
+  at System.Data.SQLite.SQLite3.Prepare (System.Data.SQLite.SQLiteConnection cnn, System.String strSql, System.Data.SQLite.SQLiteStatement previous, System.UInt32 timeoutMS, System.String& strRemain) [0x00236] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.BuildNextCommand () [0x000eb] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.GetStatement (System.Int32 index) [0x0000b] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteCommand.GetStatement(int)
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x000db] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x00051] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x00006] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader (System.Data.CommandBehavior behavior) [0x00000] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x00000] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.FillInternal (System.Data.DataSet dataset, System.Data.DataTable[] datatables, System.Int32 startRecord, System.Int32 maxRecords, System.String srcTable, System.Data.IDbCommand command, System.Data.CommandBehavior behavior) [0x0003f] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable[] dataTables, System.Int32 startRecord, System.Int32 maxRecords, System.Data.IDbCommand command, System.Data.CommandBehavior behavior) [0x0007c] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00034] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter.Fill(System.Data.DataTable)
+  at jn+b.e () [0x00073] in <a4b6a698a8ac49e494da15eb2d3ea0f4>:0 
+  at jn.p (System.String A_0, System.Data.SQLite.SQLiteParameter[] A_1) [0x00044] in <a4b6a698a8ac49e494da15eb2d3ea0f4>:0 
+  at jn.h (System.String A_0) [0x0003c] in <a4b6a698a8ac49e494da15eb2d3ea0f4>:0 
+  at aec.a (ady A_0) [0x0017e] in <93f6136208d444398267215539ab4bfb>:0 
+12/27/2020 16:54:54 Download Driver DB Ok, Version=4.0.1428646627
+12/27/2020 16:54:54 Replace DriverDb Ok
+12/27/2020 17:05:58 Add device: 00008030000154E11132402E
+12/27/2020 17:05:58 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:05:58 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:05:59 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:05:59 Connection inserter Start
+12/27/2020 17:05:59 Connection inserter create new device
+12/27/2020 17:05:59 Connection inserter device is iOS
+12/27/2020 17:05:59 Connection inserter AddService
+12/27/2020 17:05:59 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:05:59 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:05:59 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:05:59 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:05:59 [DC_Listener] DoCheckService result: True
+12/27/2020 17:05:59 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:05:59 Connection step Checking
+12/27/2020 17:05:59 [DC_UsbTask] start wait system installing.
+12/27/2020 17:05:59 [DC_UsbTask] end wait system installing.
+12/27/2020 17:05:59 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:05:59 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:05:59 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:05:59 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:05:59 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:05:59 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:05:59 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:05:59 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:05:59 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:05:59 Connection step WaitReady
+12/27/2020 17:05:59 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:05:59 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:05:59 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:05:59 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:05:59 [DC_IOSCOT]InitService began
+12/27/2020 17:05:59 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:05:59 [DC_Listener] DoCheckService result: True
+12/27/2020 17:05:59 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:05:59 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:05:59 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:05:59 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:05:59 [DC_IOSCOT] service_listen: True
+12/27/2020 17:05:59 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:05:59 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:05:59 start update apple name file
+12/27/2020 17:05:59 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:05:59 Start download apple name file
+12/27/2020 17:05:59 DownloadFile completed
+12/27/2020 17:05:59 end update apple name file
+12/27/2020 17:05:59 Download apple name file success 
+12/27/2020 17:05:59 [DC_Listener] NotificationWaitHandles wait event: 00008030-000154E11132402E
+12/27/2020 17:05:59 [DC_IOSCOT] wait_device: True
+12/27/2020 17:05:59 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:05:59 [DC_IOSCOT]InitService began
+12/27/2020 17:05:59 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:05:59 [DC_Listener] DoCheckService result: True
+12/27/2020 17:05:59 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:05:59 [DC_IOSCOT]DoWaitReady End DeviceListener 
+12/27/2020 17:05:59 [DC_IOSCOT] start WaitReady Task
+12/27/2020 17:05:59 WaitReadyTask start
+12/27/2020 17:05:59 WaitReadyState AllReady
+12/27/2020 17:05:59 Before WaitReady
+12/27/2020 17:05:59 Start WaitReady
+12/27/2020 17:05:59 Before HavePairedRecord
+12/27/2020 17:05:59 Before CheckEscrow
+12/27/2020 17:05:59 ERROR: failed to read pair record for device: 00008030000154E11132402E
+12/27/2020 17:05:59 After CheckEscrow: MissingPairRecord
+12/27/2020 17:05:59 Before WaitPaired
+12/27/2020 17:05:59 Lockdown PairRecord is null, start create
+12/27/2020 17:06:00 Connection step NeedAuth
+12/27/2020 17:06:11 After WaitPaired
+12/27/2020 17:06:11 Connection step Ready
+12/27/2020 17:06:11 ConnectionScanTask start
+12/27/2020 17:06:11 ConnectionScanTask End
+12/27/2020 17:06:11 [DC_IOSCOT]DoWaitReady End
+12/27/2020 17:06:11 [DC-BSCOT] BC-GetWaitReadyTask result: c
+12/27/2020 17:06:11 Connection step StartSession
+12/27/2020 17:06:11 Connection step LoadInfo
+12/27/2020 17:06:11 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:06:11 start update apple name file
+12/27/2020 17:06:11 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:06:11 end update apple name file
+12/27/2020 17:06:11 Download apple name file success 
+12/27/2020 17:06:11 Connection step Finished
+12/27/2020 17:06:11 [DC_UsbTask] end GetConnectTask : True
+12/27/2020 17:06:11 Manufacturer:Apple Inc.
+12/27/2020 17:06:11 Model:iPhone SE (2nd generation)
+12/27/2020 17:06:11 SerialNumber:FFMDN1W2PLK3
+12/27/2020 17:06:11 OSPlatform:iOS
+12/27/2020 17:06:11 OSVersion:14.3
+12/27/2020 17:06:11 Carrier:Orange España
+12/27/2020 17:06:11 Name:iPhone
+12/27/2020 17:06:11 Locale:es_DE
+12/27/2020 17:06:11 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Online
+12/27/2020 17:06:11 Connection step Completed
+12/27/2020 17:06:32 Device manager remove device SerialNumber: FFMDN1W2PLK3
+12/27/2020 17:06:32 Connection IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 disposed.
+12/27/2020 17:06:32 Transfer clear cache dir /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/DrFoneRecovery
+12/27/2020 17:06:32 ok
+12/27/2020 17:15:38 
+12/27/2020 17:15:38 ===============================================
+12/27/2020 17:15:38 Program.Start Product=MobileTrans, Version=1.1.2.49
+12/27/2020 17:15:38 Operating System: Unix 20.2.0.0
+12/27/2020 17:15:38 Friendly Version: MaxOSX OS64Bits
+12/27/2020 17:15:38 Language: Spanish (Spain)
+12/27/2020 17:15:38 ProcessorCount: 8
+12/27/2020 17:15:38 iTunesVersion:0.0
+12/27/2020 17:15:38 end load languages.
+12/27/2020 17:15:38 Screen WorkingArea: 1440_826
+12/27/2020 17:15:38 Program.InitCustomize
+12/27/2020 17:15:38 end Init Customize.
+12/27/2020 17:15:38 end Init GA.
+12/27/2020 17:15:38 Init register module
+12/27/2020 17:15:38 end Init Register Module.
+12/27/2020 17:15:38 Start WAF...
+12/27/2020 17:15:38 end Start WAF.
+12/27/2020 17:15:38 end Init BugSplat.
+12/27/2020 17:15:38 end Init Environment.
+12/27/2020 17:15:38 ====MT===Record App version: 2.19.360======
+12/27/2020 17:15:38 <OnlineRatingSwitchHelper> 1
+12/27/2020 17:15:39 Program.Run
+12/27/2020 17:15:39 /Users/.Android
+12/27/2020 17:15:39 RegisterUSBDevicesNotify handle:140367926364624
+12/27/2020 17:15:39 MacMonitorTask start=============================
+12/27/2020 17:15:39 begin load...
+12/27/2020 17:15:39 Add device: 0000000000000000
+12/27/2020 17:15:39 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBVHCIBCE@80000000/Apple T2 Controller@80100000
+12/27/2020 17:15:39 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBVHCIBCE@80000000/Apple T2 Controller@80100000
+12/27/2020 17:15:39 <IsSwitchOpen> start parsing json...
+12/27/2020 17:15:39 <IsSwitchOpen> str:{"code":200,"status":"off"}
+12/27/2020 17:15:39 end load...
+12/27/2020 17:15:39 <OnlineRatingSwitchHelper> 2
+12/27/2020 17:15:39 <OnlineRatingSwitchHelper> 3
+12/27/2020 17:15:39 Add device: 000001
+12/27/2020 17:15:39 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:15:39 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:15:39 Screen WorkingArea: 826
+12/27/2020 17:15:39 Start check ad link
+12/27/2020 17:15:39 CheckAD: System.UriFormatException: Invalid URI: The URI is empty.
+  at System.Uri.CreateThis (System.String uri, System.Boolean dontEscape, System.UriKind uriKind) [0x0007b] in <cea77d7bab8b472da697a3b6e78ef65f>:0 
+  at System.Uri..ctor (System.String uriString) [0x00014] in <cea77d7bab8b472da697a3b6e78ef65f>:0 
+  at System.Net.WebRequest.Create (System.String requestUriString) [0x0000e] in <cea77d7bab8b472da697a3b6e78ef65f>:0 
+  at WMM.UI.Main.TransferMainForm.a (fx A_0) [0x0004f] in <b323940560f043ff82835ae593daa72c>:0 
+12/27/2020 17:15:39 ConnectionScanTask start
+12/27/2020 17:15:39 ConnectionScanTask rescan start
+12/27/2020 17:15:39 ConnectionScanTask rescan end
+12/27/2020 17:15:39 ConnectionScanTask End
+12/27/2020 17:15:39 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, Android, 000001)
+12/27/2020 17:15:39 Connection inserter Start
+12/27/2020 17:15:39 Connection inserter create new device
+12/27/2020 17:15:39 Connection inserter device is Android
+12/27/2020 17:15:39 Connection inserter AddService
+12/27/2020 17:15:39 Device manager add device SerialNumber: 000001
+12/27/2020 17:15:39 Add device: 0000000000000001
+12/27/2020 17:15:39 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:15:39 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:15:39 Error
+12/27/2020 17:15:39 <Main> Scan Failed: 1
+12/27/2020 17:15:40 Add device: 00008030000154E11132402E
+12/27/2020 17:15:40 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:15:40 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:15:40 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:15:40 Connection inserter Start
+12/27/2020 17:15:40 Connection inserter create new device
+12/27/2020 17:15:40 Connection inserter device is iOS
+12/27/2020 17:15:40 Connection inserter AddService
+12/27/2020 17:15:40 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:16:05 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:16:05 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:16:05 * daemon started successfully
+12/27/2020 17:16:05 <DC-AndroidCOT> Initialize Result: True
+12/27/2020 17:16:05 <GetAppBackupList> /Users/xabierzuriarrain/Wondershare/DrFone/Backup/
+/Users/xabierzuriarrain/.config
+12/27/2020 17:16:05 Connection step Checking
+12/27/2020 17:16:05 [DC_UsbTask] start wait system installing.
+12/27/2020 17:16:05 [DC_UsbTask] end wait system installing.
+12/27/2020 17:16:05 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:16:05 iTunes WhatsApp BackupEnum
+12/27/2020 17:16:05 load by ws begin.
+12/27/2020 17:16:05 load by ws end.
+12/27/2020 17:16:05 <WhatsappPackageHelper> start GetSystemAllBackupPath
+12/27/2020 17:16:05 <WhatsappPackageHelper> end GetSystemAllBackupPath: 0
+12/27/2020 17:16:05 iTunes WhatsApp BackupEnum_End
+12/27/2020 17:16:05 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:16:05 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:16:05 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:16:05 [DC_UsbTask] usbconnecttask NeedDebuggingMode
+12/27/2020 17:16:05 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:16:05 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:16:05 Connection step WaitReady
+12/27/2020 17:16:05 Connection step NeedDebuggingMode
+12/27/2020 17:16:25 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 NeedDebuggingMode
+12/27/2020 17:16:25 OnDeviceConnectError:cancel
+12/27/2020 17:16:46 RecordPair: _000001
+12/27/2020 17:21:59 Remove device: 000001
+12/27/2020 17:21:59 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:21:59 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:21:59 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000)
+12/27/2020 17:21:59 Device manager remove device SerialNumber: 000001
+12/27/2020 17:21:59 Remove device: 0000000000000001
+12/27/2020 17:21:59 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:21:59 Remove device: 00008030000154E11132402E
+12/27/2020 17:21:59 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:21:59 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:21:59 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:21:59 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:22:07 Connection IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 disposed.
+12/27/2020 17:22:09 Add device: 000001
+12/27/2020 17:22:09 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:22:09 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:22:09 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, Android, 000001)
+12/27/2020 17:22:09 Connection inserter Start
+12/27/2020 17:22:09 Connection inserter create new device
+12/27/2020 17:22:09 Connection inserter device is Android
+12/27/2020 17:22:09 Connection inserter AddService
+12/27/2020 17:22:09 Device manager add device SerialNumber: 000001
+12/27/2020 17:22:09 Add device: 00008030000154E11132402E
+12/27/2020 17:22:09 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:22:09 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:22:09 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:22:09 Connection inserter Start
+12/27/2020 17:22:09 Connection inserter create new device
+12/27/2020 17:22:09 Connection inserter device is iOS
+12/27/2020 17:22:09 Connection inserter AddService
+12/27/2020 17:22:09 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:22:09 Remove device: 00008030000154E11132402E
+12/27/2020 17:22:09 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:22:09 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:22:09 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:22:09 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:22:10 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:22:10 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:22:10 * daemon started successfully
+12/27/2020 17:22:10 <DC-AndroidCOT> Initialize Result: True
+12/27/2020 17:22:10 Connection step Checking
+12/27/2020 17:22:10 [DC_UsbTask] start wait system installing.
+12/27/2020 17:22:10 [DC_UsbTask] end wait system installing.
+12/27/2020 17:22:10 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:22:10 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:22:10 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:22:10 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:22:10 [DC_UsbTask] usbconnecttask NeedDebuggingMode
+12/27/2020 17:22:10 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:22:10 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:22:10 Connection step WaitReady
+12/27/2020 17:22:10 Connection step NeedDebuggingMode
+12/27/2020 17:22:10 Add device: 0000000000000001
+12/27/2020 17:22:10 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:22:10 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:22:11 Add device: 00008030000154E11132402E
+12/27/2020 17:22:11 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:22:11 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:22:11 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:22:11 Connection inserter Start
+12/27/2020 17:22:11 Connection inserter create new device
+12/27/2020 17:22:11 Connection inserter device is iOS
+12/27/2020 17:22:11 Connection inserter AddService
+12/27/2020 17:22:11 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:22:11 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:22:11 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:22:11 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:22:11 [DC_Listener] DoCheckService result: True
+12/27/2020 17:22:11 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:22:11 Connection step Checking
+12/27/2020 17:22:11 [DC_UsbTask] start wait system installing.
+12/27/2020 17:22:11 [DC_UsbTask] end wait system installing.
+12/27/2020 17:22:11 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:22:11 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:22:11 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:22:11 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:22:11 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:22:11 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:22:11 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:22:11 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:22:11 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:22:11 Connection step WaitReady
+12/27/2020 17:22:11 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:22:11 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:22:11 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:22:11 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:22:11 [DC_IOSCOT]InitService began
+12/27/2020 17:22:11 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:22:11 [DC_Listener] DoCheckService result: True
+12/27/2020 17:22:11 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:22:11 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:22:11 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:22:11 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:22:11 [DC_IOSCOT] service_listen: True
+12/27/2020 17:22:11 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:22:12 Remove device: 000001
+12/27/2020 17:22:12 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:22:12 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:22:16 [DC_IOSCOT] wait_device: False
+12/27/2020 17:22:16 [DC_IOSCOT] wait_device Times: 1
+12/27/2020 17:22:16 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:22:16 [DC_IOSCOT] service_listen: True
+12/27/2020 17:22:16 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:22:17 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000)
+12/27/2020 17:22:17 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 Unplug
+12/27/2020 17:22:17 Device manager remove device SerialNumber: 000001
+12/27/2020 17:22:17 OnDeviceConnectError:cancel
+12/27/2020 17:22:17 Remove device: 0000000000000001
+12/27/2020 17:22:17 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:22:17 Remove device: 00008030000154E11132402E
+12/27/2020 17:22:17 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:22:17 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:22:17 [DC_IOSCOT] wait_device: False
+12/27/2020 17:22:17 [DC_IOSCOT] wait_device Times: 2
+12/27/2020 17:22:17 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:22:17 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:22:17 [DC_IOSCOT] wait_device M2 start
+12/27/2020 17:22:17 [DC_IOSCOT] wait_device M2 result: False
+12/27/2020 17:22:17 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:22:17 ConnectionScanTask start
+12/27/2020 17:22:17 ConnectionScanTask End
+12/27/2020 17:22:17 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:22:17 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Unplug
+12/27/2020 17:22:18 Add device: 000001
+12/27/2020 17:22:18 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:22:18 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:22:18 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, Android, 000001)
+12/27/2020 17:22:18 Connection inserter Start
+12/27/2020 17:22:18 Connection inserter create new device
+12/27/2020 17:22:18 Connection inserter device is Android
+12/27/2020 17:22:18 Connection inserter AddService
+12/27/2020 17:22:18 Device manager add device SerialNumber: 000001
+12/27/2020 17:22:18 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:22:18 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:22:18 * daemon started successfully
+12/27/2020 17:22:18 <DC-AndroidCOT> Initialize Result: True
+12/27/2020 17:22:18 Connection step Checking
+12/27/2020 17:22:18 [DC_UsbTask] start wait system installing.
+12/27/2020 17:22:18 [DC_UsbTask] end wait system installing.
+12/27/2020 17:22:18 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:22:18 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:22:18 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:22:18 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:22:18 [DC_UsbTask] usbconnecttask NeedDebuggingMode
+12/27/2020 17:22:18 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:22:18 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:22:18 Connection step WaitReady
+12/27/2020 17:22:18 Connection step NeedDebuggingMode
+12/27/2020 17:22:20 Add device: 0000000000000001
+12/27/2020 17:22:20 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:22:20 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:22:21 Add device: 00008030000154E11132402E
+12/27/2020 17:22:21 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:22:21 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:22:21 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:22:21 Connection inserter Start
+12/27/2020 17:22:21 Connection inserter create new device
+12/27/2020 17:22:21 Connection inserter device is iOS
+12/27/2020 17:22:21 Connection inserter AddService
+12/27/2020 17:22:21 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:22:21 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:22:21 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:22:21 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:22:21 [DC_Listener] DoCheckService result: True
+12/27/2020 17:22:21 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:22:21 Connection step Checking
+12/27/2020 17:22:21 [DC_UsbTask] start wait system installing.
+12/27/2020 17:22:21 [DC_UsbTask] end wait system installing.
+12/27/2020 17:22:21 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:22:21 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:22:21 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:22:21 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:22:21 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:22:21 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:22:21 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:22:21 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:22:21 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:22:21 Connection step WaitReady
+12/27/2020 17:22:21 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:22:21 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:22:21 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:22:21 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:22:21 [DC_IOSCOT]InitService began
+12/27/2020 17:22:21 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:22:21 [DC_Listener] DoCheckService result: True
+12/27/2020 17:22:21 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:22:21 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:22:21 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:22:21 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:22:21 [DC_IOSCOT] service_listen: True
+12/27/2020 17:22:21 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:22:21 [DC_IOSCOT] wait_device: True
+12/27/2020 17:22:21 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:22:21 [DC_IOSCOT]InitService began
+12/27/2020 17:22:21 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:22:21 [DC_Listener] DoCheckService result: True
+12/27/2020 17:22:21 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:22:21 [DC_IOSCOT]DoWaitReady End DeviceListener 
+12/27/2020 17:22:21 [DC_IOSCOT] start WaitReady Task
+12/27/2020 17:22:21 WaitReadyTask start
+12/27/2020 17:22:21 WaitReadyState AllReady
+12/27/2020 17:22:21 device not  arrive
+12/27/2020 17:22:21 [DC_IOSCOT]DoWaitReady End
+12/27/2020 17:22:21 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:22:21 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Offline
+12/27/2020 17:22:21 Connection step Completed
+12/27/2020 17:22:21 OnDeviceConnectError:other
+12/27/2020 17:22:21 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:22:21 start update apple name file
+12/27/2020 17:22:21 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:22:21 Start download apple name file
+12/27/2020 17:22:21 DownloadFile completed
+12/27/2020 17:22:21 end update apple name file
+12/27/2020 17:22:21 Download apple name file success 
+12/27/2020 17:22:21 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:22:21 start update apple name file
+12/27/2020 17:22:21 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:22:21 end update apple name file
+12/27/2020 17:22:21 Download apple name file success 
+12/27/2020 17:22:21 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:22:21 start update apple name file
+12/27/2020 17:22:21 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:22:21 end update apple name file
+12/27/2020 17:22:21 Download apple name file success 
+12/27/2020 17:22:21 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:22:21 start update apple name file
+12/27/2020 17:22:21 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:22:21 end update apple name file
+12/27/2020 17:22:21 Download apple name file success 
+12/27/2020 17:22:21 [DC_Listener] NotificationWaitHandles wait event: 00008030-000154E11132402E
+12/27/2020 17:22:25 Connection IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 disposed.
+12/27/2020 17:22:50 Remove device: 000001
+12/27/2020 17:22:50 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:22:50 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:22:55 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000)
+12/27/2020 17:22:55 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 Unplug
+12/27/2020 17:22:55 Device manager remove device SerialNumber: 000001
+12/27/2020 17:22:55 OnDeviceConnectError:cancel
+12/27/2020 17:22:55 Remove device: 0000000000000001
+12/27/2020 17:22:55 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:22:55 Remove device: 00008030000154E11132402E
+12/27/2020 17:22:55 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:22:55 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:22:55 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:22:55 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:22:56 Add device: 000001
+12/27/2020 17:22:56 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:22:56 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:22:56 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, Android, 000001)
+12/27/2020 17:22:56 Connection inserter Start
+12/27/2020 17:22:56 Connection inserter create new device
+12/27/2020 17:22:56 Connection inserter device is Android
+12/27/2020 17:22:56 Connection inserter AddService
+12/27/2020 17:22:56 Device manager add device SerialNumber: 000001
+12/27/2020 17:22:56 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:22:56 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:22:56 * daemon started successfully
+12/27/2020 17:22:56 <DC-AndroidCOT> Initialize Result: True
+12/27/2020 17:22:56 Connection step Checking
+12/27/2020 17:22:56 [DC_UsbTask] start wait system installing.
+12/27/2020 17:22:56 [DC_UsbTask] end wait system installing.
+12/27/2020 17:22:56 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:22:56 IOException: Invalid handle to path "/Applications/MobileTrans.app/Contents/Resources/[Unknown]"
+12/27/2020 17:22:56   at System.IO.FileStream.ReadData (System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] buf, System.Int32 offset, System.Int32 count) [0x0002d] in <51f721dfc41044e88d763e1711099fe3>:0 
+  at System.IO.FileStream.ReadInternal (System.Byte[] dest, System.Int32 offset, System.Int32 count) [0x00026] in <51f721dfc41044e88d763e1711099fe3>:0 
+  at System.IO.FileStream.Read (System.Byte[] array, System.Int32 offset, System.Int32 count) [0x000a1] in <51f721dfc41044e88d763e1711099fe3>:0 
+  at System.IO.StreamReader.ReadBuffer () [0x000b3] in <51f721dfc41044e88d763e1711099fe3>:0 
+  at System.IO.StreamReader.ReadLine () [0x00021] in <51f721dfc41044e88d763e1711099fe3>:0 
+  at f3.a () [0x00097] in <a4b6a698a8ac49e494da15eb2d3ea0f4>:0 
+12/27/2020 17:22:56 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:22:56 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:22:56 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:22:56 [DC_UsbTask] usbconnecttask NeedDebuggingMode
+12/27/2020 17:22:56 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:22:56 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:22:56 Connection step WaitReady
+12/27/2020 17:22:56 Connection step NeedDebuggingMode
+12/27/2020 17:22:56 Add device: 0000000000000001
+12/27/2020 17:22:56 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:22:56 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:22:56 Add device: 00008030000154E11132402E
+12/27/2020 17:22:56 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:22:56 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:22:56 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:22:56 Connection inserter Start
+12/27/2020 17:22:56 Connection inserter create new device
+12/27/2020 17:22:56 Connection inserter device is iOS
+12/27/2020 17:22:56 Connection inserter AddService
+12/27/2020 17:22:56 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:22:56 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:22:56 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:22:56 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:22:56 [DC_Listener] DoCheckService result: True
+12/27/2020 17:22:56 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:22:56 Connection step Checking
+12/27/2020 17:22:56 [DC_UsbTask] start wait system installing.
+12/27/2020 17:22:56 [DC_UsbTask] end wait system installing.
+12/27/2020 17:22:56 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:22:56 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:22:56 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:22:56 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:22:56 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:22:56 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:22:56 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:22:56 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:22:56 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:22:56 Connection step WaitReady
+12/27/2020 17:22:56 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:22:56 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:22:56 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:22:56 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:22:56 [DC_IOSCOT]InitService began
+12/27/2020 17:22:56 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:22:56 [DC_Listener] DoCheckService result: True
+12/27/2020 17:22:56 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:22:56 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:22:56 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:22:56 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:22:56 [DC_IOSCOT] service_listen: True
+12/27/2020 17:22:56 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:22:56 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:22:56 start update apple name file
+12/27/2020 17:22:56 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:22:56 end update apple name file
+12/27/2020 17:22:56 Download apple name file success 
+12/27/2020 17:22:56 [DC_Listener] NotificationWaitHandles wait event: 00008030-000154E11132402E
+12/27/2020 17:22:56 [DC_IOSCOT] wait_device: True
+12/27/2020 17:22:56 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:22:56 [DC_IOSCOT]InitService began
+12/27/2020 17:22:56 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:22:56 [DC_Listener] DoCheckService result: True
+12/27/2020 17:22:56 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:22:56 [DC_IOSCOT]DoWaitReady End DeviceListener 
+12/27/2020 17:22:56 [DC_IOSCOT] start WaitReady Task
+12/27/2020 17:22:56 WaitReadyTask start
+12/27/2020 17:22:56 WaitReadyState AllReady
+12/27/2020 17:22:56 Before WaitReady
+12/27/2020 17:22:56 Start WaitReady
+12/27/2020 17:22:56 Before HavePairedRecord
+12/27/2020 17:22:56 After HavePairedRecord
+12/27/2020 17:22:56 Connection step NeedUnlock
+12/27/2020 17:22:57 Remove device: 000001
+12/27/2020 17:22:57 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:22:57 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:23:02 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000)
+12/27/2020 17:23:02 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 Unplug
+12/27/2020 17:23:02 Device manager remove device SerialNumber: 000001
+12/27/2020 17:23:02 OnDeviceConnectError:cancel
+12/27/2020 17:23:02 Remove device: 0000000000000001
+12/27/2020 17:23:02 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:23:02 Remove device: 00008030000154E11132402E
+12/27/2020 17:23:02 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:02 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:23:02 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:23:02 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:02 Before WaitPaired
+12/27/2020 17:23:02 After WaitPaired
+12/27/2020 17:23:02 Can not Continue
+12/27/2020 17:23:02 [DC_IOSCOT]DoWaitReady End
+12/27/2020 17:23:02 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:23:02 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Unplug
+12/27/2020 17:23:06 Add device: 000001
+12/27/2020 17:23:06 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:06 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:06 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, Android, 000001)
+12/27/2020 17:23:06 Connection inserter Start
+12/27/2020 17:23:06 Connection inserter create new device
+12/27/2020 17:23:06 Connection inserter device is Android
+12/27/2020 17:23:06 Connection inserter AddService
+12/27/2020 17:23:06 Device manager add device SerialNumber: 000001
+12/27/2020 17:23:06 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:06 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:23:06 * daemon started successfully
+12/27/2020 17:23:06 <DC-AndroidCOT> Initialize Result: True
+12/27/2020 17:23:06 Connection step Checking
+12/27/2020 17:23:06 [DC_UsbTask] start wait system installing.
+12/27/2020 17:23:06 [DC_UsbTask] end wait system installing.
+12/27/2020 17:23:06 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:23:06 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:23:06 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:23:06 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:23:06 [DC_UsbTask] usbconnecttask NeedDebuggingMode
+12/27/2020 17:23:06 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:23:06 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:23:06 Connection step WaitReady
+12/27/2020 17:23:06 Connection step NeedDebuggingMode
+12/27/2020 17:23:07 Connection IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 disposed.
+12/27/2020 17:23:07 Add device: 0000000000000001
+12/27/2020 17:23:07 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:23:07 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:23:08 Add device: 00008030000154E11132402E
+12/27/2020 17:23:08 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:08 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:08 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:23:08 Connection inserter Start
+12/27/2020 17:23:08 Connection inserter create new device
+12/27/2020 17:23:08 Connection inserter device is iOS
+12/27/2020 17:23:08 Connection inserter AddService
+12/27/2020 17:23:08 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:08 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:08 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:23:08 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:08 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:08 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:08 Connection step Checking
+12/27/2020 17:23:08 [DC_UsbTask] start wait system installing.
+12/27/2020 17:23:08 [DC_UsbTask] end wait system installing.
+12/27/2020 17:23:08 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:23:08 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:23:08 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:23:08 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:23:08 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:23:08 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:23:08 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:23:08 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:23:08 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:23:08 Connection step WaitReady
+12/27/2020 17:23:08 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:23:08 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:23:08 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:23:08 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:23:08 [DC_IOSCOT]InitService began
+12/27/2020 17:23:08 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:08 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:08 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:08 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:23:08 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:23:08 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:23:08 [DC_IOSCOT] service_listen: True
+12/27/2020 17:23:08 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:23:09 [DC_Listener] WARNING: got device remove message for handle 5, but couldn't find the corresponding handle in the device list. This event will be ignored.
+12/27/2020 17:23:09 Remove device: 000001
+12/27/2020 17:23:09 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:09 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:23:10 Connection IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 disposed.
+12/27/2020 17:23:13 [DC_IOSCOT] wait_device: False
+12/27/2020 17:23:13 [DC_IOSCOT] wait_device Times: 1
+12/27/2020 17:23:13 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:23:13 [DC_IOSCOT] service_listen: True
+12/27/2020 17:23:13 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:23:14 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000)
+12/27/2020 17:23:14 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 Unplug
+12/27/2020 17:23:14 Device manager remove device SerialNumber: 000001
+12/27/2020 17:23:14 OnDeviceConnectError:cancel
+12/27/2020 17:23:14 Remove device: 0000000000000001
+12/27/2020 17:23:14 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:23:14 Remove device: 00008030000154E11132402E
+12/27/2020 17:23:14 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:14 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:23:14 [DC_IOSCOT] wait_device: False
+12/27/2020 17:23:14 [DC_IOSCOT] wait_device Times: 2
+12/27/2020 17:23:14 [DC_IOSCOT] wait_device M2 start
+12/27/2020 17:23:14 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:23:14 [DC_IOSCOT] wait_device M2 result: False
+12/27/2020 17:23:14 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:14 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:23:14 ConnectionScanTask start
+12/27/2020 17:23:14 ConnectionScanTask End
+12/27/2020 17:23:14 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:23:14 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Unplug
+12/27/2020 17:23:15 Add device: 000001
+12/27/2020 17:23:15 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:15 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:15 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, Android, 000001)
+12/27/2020 17:23:15 Connection inserter Start
+12/27/2020 17:23:15 Connection inserter create new device
+12/27/2020 17:23:15 Connection inserter device is Android
+12/27/2020 17:23:15 Connection inserter AddService
+12/27/2020 17:23:15 Device manager add device SerialNumber: 000001
+12/27/2020 17:23:15 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:15 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:23:15 * daemon started successfully
+12/27/2020 17:23:15 <DC-AndroidCOT> Initialize Result: True
+12/27/2020 17:23:15 Connection step Checking
+12/27/2020 17:23:15 [DC_UsbTask] start wait system installing.
+12/27/2020 17:23:15 [DC_UsbTask] end wait system installing.
+12/27/2020 17:23:15 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:23:15 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:23:15 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:23:15 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:23:15 [DC_UsbTask] usbconnecttask NeedDebuggingMode
+12/27/2020 17:23:15 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:23:15 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:23:15 Connection step WaitReady
+12/27/2020 17:23:15 Connection step NeedDebuggingMode
+12/27/2020 17:23:15 Add device: 00008030000154E11132402E
+12/27/2020 17:23:15 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:15 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:15 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:23:15 Connection inserter Start
+12/27/2020 17:23:15 Connection inserter create new device
+12/27/2020 17:23:15 Connection inserter device is iOS
+12/27/2020 17:23:15 Connection inserter AddService
+12/27/2020 17:23:15 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:15 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:15 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:23:15 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:15 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:15 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:15 Connection step Checking
+12/27/2020 17:23:15 [DC_UsbTask] start wait system installing.
+12/27/2020 17:23:15 [DC_UsbTask] end wait system installing.
+12/27/2020 17:23:15 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:23:15 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:23:15 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:23:15 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:23:15 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:23:15 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:23:15 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:23:15 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:23:15 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:23:15 Connection step WaitReady
+12/27/2020 17:23:15 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:23:15 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:23:15 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:23:15 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:23:15 [DC_IOSCOT]InitService began
+12/27/2020 17:23:15 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:15 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:15 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:15 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:23:15 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:23:15 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:23:15 [DC_IOSCOT] service_listen: True
+12/27/2020 17:23:15 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:23:15 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:23:15 start update apple name file
+12/27/2020 17:23:15 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:23:15 end update apple name file
+12/27/2020 17:23:15 Download apple name file success 
+12/27/2020 17:23:15 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:23:15 start update apple name file
+12/27/2020 17:23:15 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:23:15 end update apple name file
+12/27/2020 17:23:15 Download apple name file success 
+12/27/2020 17:23:15 [DC_Listener] NotificationWaitHandles wait event: 00008030-000154E11132402E
+12/27/2020 17:23:15 [DC_Listener] NotificationWaitHandles wait event: 00008030-000154E11132402E
+12/27/2020 17:23:15 [DC_IOSCOT] wait_device: True
+12/27/2020 17:23:15 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:23:15 [DC_IOSCOT]InitService began
+12/27/2020 17:23:15 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:15 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:15 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:15 [DC_IOSCOT]DoWaitReady End DeviceListener 
+12/27/2020 17:23:15 [DC_IOSCOT] start WaitReady Task
+12/27/2020 17:23:15 WaitReadyTask start
+12/27/2020 17:23:15 WaitReadyState AllReady
+12/27/2020 17:23:15 Before WaitReady
+12/27/2020 17:23:15 Start WaitReady
+12/27/2020 17:23:15 Before HavePairedRecord
+12/27/2020 17:23:15 After HavePairedRecord
+12/27/2020 17:23:16 Connection step NeedUnlock
+12/27/2020 17:23:16 Before WaitPaired
+12/27/2020 17:23:16 Remove device: 000001
+12/27/2020 17:23:16 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:16 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:23:21 Remove device: 00008030000154E11132402E
+12/27/2020 17:23:21 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:21 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:23:21 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:23:21 After WaitPaired
+12/27/2020 17:23:21 Can not Continue
+12/27/2020 17:23:21 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:21 [DC_IOSCOT]DoWaitReady End
+12/27/2020 17:23:21 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:23:21 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Unplug
+12/27/2020 17:23:21 OnDeviceConnectError:cancel
+12/27/2020 17:23:21 Add device: 000001
+12/27/2020 17:23:21 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:21 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:21 Add device: 00008030000154E11132402E
+12/27/2020 17:23:21 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:21 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:21 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:23:21 Connection inserter Start
+12/27/2020 17:23:21 Connection inserter create new device
+12/27/2020 17:23:21 Connection inserter device is iOS
+12/27/2020 17:23:21 Connection inserter AddService
+12/27/2020 17:23:21 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:21 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:21 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:23:21 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:21 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:21 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:21 Connection step Checking
+12/27/2020 17:23:21 [DC_UsbTask] start wait system installing.
+12/27/2020 17:23:21 [DC_UsbTask] end wait system installing.
+12/27/2020 17:23:21 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:23:22 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:23:22 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:23:22 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:23:22 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:23:22 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:23:22 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:23:22 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:23:22 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:23:22 Connection step WaitReady
+12/27/2020 17:23:22 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:23:22 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:23:22 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:23:22 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:23:22 [DC_IOSCOT]InitService began
+12/27/2020 17:23:22 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:22 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:22 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:22 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:23:22 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:23:22 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:23:22 [DC_IOSCOT] service_listen: True
+12/27/2020 17:23:22 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:23:22 [DC_Listener] NotificationWaitHandles wait event: 00008030-000154E11132402E
+12/27/2020 17:23:22 [DC_IOSCOT] wait_device: True
+12/27/2020 17:23:22 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:23:22 [DC_IOSCOT]InitService began
+12/27/2020 17:23:22 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:22 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:22 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:22 [DC_IOSCOT]DoWaitReady End DeviceListener 
+12/27/2020 17:23:22 [DC_IOSCOT] start WaitReady Task
+12/27/2020 17:23:22 WaitReadyTask start
+12/27/2020 17:23:22 WaitReadyState AllReady
+12/27/2020 17:23:22 device not  arrive
+12/27/2020 17:23:22 [DC_IOSCOT]DoWaitReady End
+12/27/2020 17:23:22 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:23:22 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Offline
+12/27/2020 17:23:22 Connection step Completed
+12/27/2020 17:23:22 OnDeviceConnectError:other
+12/27/2020 17:23:22 Remove device: 000001
+12/27/2020 17:23:22 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:22 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:23:26 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:26 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:23:26 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:26 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:26 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:26 Connection step Checking
+12/27/2020 17:23:26 [DC_UsbTask] start wait system installing.
+12/27/2020 17:23:26 [DC_UsbTask] end wait system installing.
+12/27/2020 17:23:26 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:23:26 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:23:26 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:23:26 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:23:26 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:23:26 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:23:26 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:23:26 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:23:26 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:23:26 Connection step WaitReady
+12/27/2020 17:23:26 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:23:26 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:23:26 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:23:26 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:23:26 [DC_IOSCOT]InitService began
+12/27/2020 17:23:26 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:26 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:26 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:26 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:23:26 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:23:26 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:23:26 [DC_IOSCOT] service_listen: True
+12/27/2020 17:23:26 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:23:26 Connection IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 disposed.
+12/27/2020 17:23:27 Remove device: 00008030000154E11132402E
+12/27/2020 17:23:27 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:27 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:23:27 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:23:27 [DC_IOSCOT] wait_device: False
+12/27/2020 17:23:27 [DC_IOSCOT] wait_device Times: 1
+12/27/2020 17:23:27 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:23:27 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:27 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:23:27 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Unplug
+12/27/2020 17:23:27 OnDeviceConnectError:cancel
+12/27/2020 17:23:27 Report connection result error: Error getting response stream (ReadDoneAsync2): ReceiveFailure
+12/27/2020 17:23:27 Add device: 000001
+12/27/2020 17:23:27 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:27 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:28 Add device: 00008030000154E11132402E
+12/27/2020 17:23:28 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:28 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:28 Lockdown Connect failed: BADDEV
+12/27/2020 17:23:28 [DC_Listener] NotificationWaitHandles wait event: 00008030000154E11132402E
+12/27/2020 17:23:28 Lockdown connect failed: Undefined
+12/27/2020 17:23:28 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:23:28 Connection inserter Start
+12/27/2020 17:23:28 Connection inserter create new device
+12/27/2020 17:23:28 Connection inserter device is iOS
+12/27/2020 17:23:28 Connection inserter AddService
+12/27/2020 17:23:28 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:28 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:28 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:23:28 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:28 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:28 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:28 Connection step Checking
+12/27/2020 17:23:28 [DC_UsbTask] start wait system installing.
+12/27/2020 17:23:28 [DC_UsbTask] end wait system installing.
+12/27/2020 17:23:28 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:23:28 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:23:28 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:23:28 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:23:28 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:23:28 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:23:28 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:23:28 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:23:28 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:23:28 Connection step WaitReady
+12/27/2020 17:23:28 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:23:28 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:23:28 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:23:28 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:23:28 [DC_IOSCOT]InitService began
+12/27/2020 17:23:28 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:28 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:28 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:28 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:23:28 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:23:28 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:23:28 [DC_IOSCOT] service_listen: True
+12/27/2020 17:23:28 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:23:28 Remove device: 000001
+12/27/2020 17:23:28 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:28 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:23:33 [DC_IOSCOT] wait_device: False
+12/27/2020 17:23:33 [DC_IOSCOT] wait_device Times: 1
+12/27/2020 17:23:33 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:23:33 [DC_IOSCOT] service_listen: True
+12/27/2020 17:23:33 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:23:33 Remove device: 00008030000154E11132402E
+12/27/2020 17:23:33 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:33 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:23:33 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:23:33 [DC_IOSCOT] wait_device: False
+12/27/2020 17:23:33 [DC_IOSCOT] wait_device Times: 2
+12/27/2020 17:23:33 [DC_IOSCOT] wait_device M2 start
+12/27/2020 17:23:33 [DC_IOSCOT] wait_device M2 result: False
+12/27/2020 17:23:33 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:33 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:23:33 ConnectionScanTask start
+12/27/2020 17:23:33 ConnectionScanTask End
+12/27/2020 17:23:33 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:23:33 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Unplug
+12/27/2020 17:23:33 Add device: 000001
+12/27/2020 17:23:33 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:33 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:33 Add device: 00008030000154E11132402E
+12/27/2020 17:23:33 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:33 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:33 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:23:33 Connection inserter Start
+12/27/2020 17:23:33 Connection inserter create new device
+12/27/2020 17:23:33 Connection inserter device is iOS
+12/27/2020 17:23:33 Connection inserter AddService
+12/27/2020 17:23:33 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:33 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:33 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:23:33 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:33 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:33 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:33 Connection step Checking
+12/27/2020 17:23:33 [DC_UsbTask] start wait system installing.
+12/27/2020 17:23:33 [DC_UsbTask] end wait system installing.
+12/27/2020 17:23:33 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:23:33 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:23:33 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:23:33 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:23:33 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:23:33 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:23:33 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:23:33 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:23:33 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:23:33 Connection step WaitReady
+12/27/2020 17:23:33 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:23:33 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:23:33 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:23:33 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:23:33 [DC_IOSCOT]InitService began
+12/27/2020 17:23:33 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:33 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:33 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:33 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:23:33 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:23:33 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:23:33 [DC_IOSCOT] service_listen: True
+12/27/2020 17:23:33 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:23:34 Lockdown Connect failed: BADDEV
+12/27/2020 17:23:34 Lockdown connect failed: Undefined
+12/27/2020 17:23:34 Lockdown Connect failed: BADDEV
+12/27/2020 17:23:34 Lockdown connect failed: Undefined
+12/27/2020 17:23:34 [DC_Listener] NotificationWaitHandles wait event: 00008030000154E11132402E
+12/27/2020 17:23:34 [DC_Listener] NotificationWaitHandles wait event: 00008030000154E11132402E
+12/27/2020 17:23:34 [DC_IOSCOT] wait_device: True
+12/27/2020 17:23:34 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:23:34 [DC_IOSCOT]InitService began
+12/27/2020 17:23:34 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:34 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:34 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:34 [DC_IOSCOT]DoWaitReady End DeviceListener 
+12/27/2020 17:23:34 [DC_IOSCOT] start WaitReady Task
+12/27/2020 17:23:34 WaitReadyTask start
+12/27/2020 17:23:34 WaitReadyState AllReady
+12/27/2020 17:23:34 Before WaitReady
+12/27/2020 17:23:34 Start WaitReady
+12/27/2020 17:23:34 Before HavePairedRecord
+12/27/2020 17:23:34 Before CheckEscrow
+12/27/2020 17:23:34 After CheckEscrow: DeviceDisconnected
+12/27/2020 17:23:34 Before WaitPaired
+12/27/2020 17:23:34 Remove device: 000001
+12/27/2020 17:23:34 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:34 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:23:39 Remove device: 00008030000154E11132402E
+12/27/2020 17:23:39 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:39 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:23:39 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:23:39 After WaitPaired
+12/27/2020 17:23:39 Can not Continue
+12/27/2020 17:23:39 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:39 [DC_IOSCOT]DoWaitReady End
+12/27/2020 17:23:39 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:23:39 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Unplug
+12/27/2020 17:23:39 Add device: 000001
+12/27/2020 17:23:39 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:39 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:39 Add device: 00008030000154E11132402E
+12/27/2020 17:23:39 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:39 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:39 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:23:39 Connection inserter Start
+12/27/2020 17:23:39 Connection inserter create new device
+12/27/2020 17:23:39 Connection inserter device is iOS
+12/27/2020 17:23:39 Connection inserter AddService
+12/27/2020 17:23:39 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:39 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:39 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:23:39 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:39 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:39 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:39 Connection step Checking
+12/27/2020 17:23:39 [DC_UsbTask] start wait system installing.
+12/27/2020 17:23:39 [DC_UsbTask] end wait system installing.
+12/27/2020 17:23:39 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:23:39 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:23:39 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:23:39 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:23:39 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:23:39 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:23:39 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:23:39 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:23:39 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:23:39 Connection step WaitReady
+12/27/2020 17:23:39 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:23:39 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:23:39 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:23:39 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:23:39 [DC_IOSCOT]InitService began
+12/27/2020 17:23:39 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:39 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:39 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:39 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:23:39 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:23:39 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:23:39 [DC_IOSCOT] service_listen: True
+12/27/2020 17:23:39 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:23:40 Lockdown Connect failed: BADDEV
+12/27/2020 17:23:40 Lockdown connect failed: Undefined
+12/27/2020 17:23:40 Lockdown Connect failed: BADDEV
+12/27/2020 17:23:40 Lockdown connect failed: Undefined
+12/27/2020 17:23:40 Lockdown Connect failed: BADDEV
+12/27/2020 17:23:40 Lockdown connect failed: Undefined
+12/27/2020 17:23:40 [DC_Listener] NotificationWaitHandles wait event: 00008030000154E11132402E
+12/27/2020 17:23:40 [DC_IOSCOT] wait_device: True
+12/27/2020 17:23:40 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:23:40 [DC_IOSCOT]InitService began
+12/27/2020 17:23:40 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:40 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:40 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:40 [DC_IOSCOT]DoWaitReady End DeviceListener 
+12/27/2020 17:23:40 [DC_IOSCOT] start WaitReady Task
+12/27/2020 17:23:40 WaitReadyTask start
+12/27/2020 17:23:40 WaitReadyState AllReady
+12/27/2020 17:23:40 Before WaitReady
+12/27/2020 17:23:40 Start WaitReady
+12/27/2020 17:23:40 Before HavePairedRecord
+12/27/2020 17:23:40 Before CheckEscrow
+12/27/2020 17:23:40 After CheckEscrow: DeviceDisconnected
+12/27/2020 17:23:40 Before WaitPaired
+12/27/2020 17:23:40 Remove device: 000001
+12/27/2020 17:23:40 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:40 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:23:45 Remove device: 00008030000154E11132402E
+12/27/2020 17:23:45 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:45 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:23:45 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:23:45 After WaitPaired
+12/27/2020 17:23:45 Can not Continue
+12/27/2020 17:23:45 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:45 [DC_IOSCOT]DoWaitReady End
+12/27/2020 17:23:45 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:23:45 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Unplug
+12/27/2020 17:23:45 Add device: 000001
+12/27/2020 17:23:45 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:45 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:45 Add device: 00008030000154E11132402E
+12/27/2020 17:23:45 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:45 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:45 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:23:45 Connection inserter Start
+12/27/2020 17:23:45 Connection inserter create new device
+12/27/2020 17:23:45 Connection inserter device is iOS
+12/27/2020 17:23:45 Connection inserter AddService
+12/27/2020 17:23:45 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:45 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:45 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:23:45 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:45 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:45 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:45 Connection step Checking
+12/27/2020 17:23:45 [DC_UsbTask] start wait system installing.
+12/27/2020 17:23:45 [DC_UsbTask] end wait system installing.
+12/27/2020 17:23:45 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:23:45 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:23:45 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:23:45 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:23:45 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:23:45 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:23:45 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:23:45 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:23:45 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:23:45 Connection step WaitReady
+12/27/2020 17:23:45 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:23:45 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:23:45 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:23:45 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:23:45 [DC_IOSCOT]InitService began
+12/27/2020 17:23:45 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:45 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:45 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:45 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:23:45 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:23:45 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:23:45 [DC_IOSCOT] service_listen: True
+12/27/2020 17:23:45 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:23:46 Lockdown Connect failed: BADDEV
+12/27/2020 17:23:46 Lockdown connect failed: Undefined
+12/27/2020 17:23:46 Lockdown Connect failed: BADDEV
+12/27/2020 17:23:46 Lockdown connect failed: Undefined
+12/27/2020 17:23:46 Lockdown Connect failed: BADDEV
+12/27/2020 17:23:46 Lockdown connect failed: Undefined
+12/27/2020 17:23:46 Lockdown Connect failed: BADDEV
+12/27/2020 17:23:46 Lockdown connect failed: Undefined
+12/27/2020 17:23:46 [DC_Listener] NotificationWaitHandles wait event: 00008030000154E11132402E
+12/27/2020 17:23:46 [DC_IOSCOT] wait_device: True
+12/27/2020 17:23:46 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:23:46 [DC_IOSCOT]InitService began
+12/27/2020 17:23:46 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:46 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:46 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:46 [DC_IOSCOT]DoWaitReady End DeviceListener 
+12/27/2020 17:23:46 [DC_IOSCOT] start WaitReady Task
+12/27/2020 17:23:46 WaitReadyTask start
+12/27/2020 17:23:46 WaitReadyState AllReady
+12/27/2020 17:23:46 Before WaitReady
+12/27/2020 17:23:46 Start WaitReady
+12/27/2020 17:23:46 Before HavePairedRecord
+12/27/2020 17:23:46 Before CheckEscrow
+12/27/2020 17:23:46 After CheckEscrow: DeviceDisconnected
+12/27/2020 17:23:46 Before WaitPaired
+12/27/2020 17:23:46 Remove device: 000001
+12/27/2020 17:23:46 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:46 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:23:51 Remove device: 00008030000154E11132402E
+12/27/2020 17:23:51 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:51 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:23:51 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:23:51 After WaitPaired
+12/27/2020 17:23:51 Can not Continue
+12/27/2020 17:23:51 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:51 [DC_IOSCOT]DoWaitReady End
+12/27/2020 17:23:51 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:23:51 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Unplug
+12/27/2020 17:23:51 OnDeviceConnectError:cancel
+12/27/2020 17:23:51 Add device: 000001
+12/27/2020 17:23:51 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:51 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:51 Add device: 00008030000154E11132402E
+12/27/2020 17:23:51 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:51 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:51 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:23:51 Connection inserter Start
+12/27/2020 17:23:51 Connection inserter create new device
+12/27/2020 17:23:51 Connection inserter device is iOS
+12/27/2020 17:23:51 Connection inserter AddService
+12/27/2020 17:23:51 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:51 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:51 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:23:51 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:51 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:51 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:51 Connection step Checking
+12/27/2020 17:23:51 [DC_UsbTask] start wait system installing.
+12/27/2020 17:23:51 [DC_UsbTask] end wait system installing.
+12/27/2020 17:23:51 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:23:51 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:23:51 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:23:51 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:23:51 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:23:51 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:23:51 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:23:51 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:23:51 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:23:51 Connection step WaitReady
+12/27/2020 17:23:51 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:23:51 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:23:51 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:23:51 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:23:51 [DC_IOSCOT]InitService began
+12/27/2020 17:23:51 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:51 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:51 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:51 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:23:51 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:23:51 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:23:51 [DC_IOSCOT] service_listen: True
+12/27/2020 17:23:51 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:23:51 [DC_Listener] WARNING: got device remove message for handle 12, but couldn't find the corresponding handle in the device list. This event will be ignored.
+12/27/2020 17:23:52 Remove device: 000001
+12/27/2020 17:23:52 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:52 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:23:56 [DC_IOSCOT] wait_device: False
+12/27/2020 17:23:56 [DC_IOSCOT] wait_device Times: 1
+12/27/2020 17:23:56 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:23:56 [DC_IOSCOT] service_listen: True
+12/27/2020 17:23:56 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:23:57 Remove device: 00008030000154E11132402E
+12/27/2020 17:23:57 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:57 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:23:57 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:23:57 [DC_IOSCOT] wait_device: False
+12/27/2020 17:23:57 [DC_IOSCOT] wait_device Times: 2
+12/27/2020 17:23:57 [DC_IOSCOT] wait_device M2 start
+12/27/2020 17:23:57 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:57 [DC_IOSCOT] wait_device M2 result: False
+12/27/2020 17:23:57 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:23:57 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:23:57 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Unplug
+12/27/2020 17:23:57 ConnectionScanTask start
+12/27/2020 17:23:57 ConnectionScanTask End
+12/27/2020 17:23:57 OnDeviceConnectError:cancel
+12/27/2020 17:23:57 Add device: 000001
+12/27/2020 17:23:57 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:57 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:57 Add device: 00008030000154E11132402E
+12/27/2020 17:23:57 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:57 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:57 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:23:57 Connection inserter Start
+12/27/2020 17:23:57 Connection inserter create new device
+12/27/2020 17:23:57 Connection inserter device is iOS
+12/27/2020 17:23:57 Connection inserter AddService
+12/27/2020 17:23:57 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:23:57 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:23:57 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:23:57 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:57 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:57 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:57 Connection step Checking
+12/27/2020 17:23:57 [DC_UsbTask] start wait system installing.
+12/27/2020 17:23:57 [DC_UsbTask] end wait system installing.
+12/27/2020 17:23:57 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:23:57 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:23:57 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:23:57 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:23:57 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:23:57 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:23:57 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:23:57 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:23:57 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:23:57 Connection step WaitReady
+12/27/2020 17:23:57 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:23:57 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:23:57 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:23:57 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:23:57 [DC_IOSCOT]InitService began
+12/27/2020 17:23:57 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:23:57 [DC_Listener] DoCheckService result: True
+12/27/2020 17:23:57 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:23:57 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:23:57 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:23:57 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:23:57 [DC_IOSCOT] service_listen: True
+12/27/2020 17:23:57 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:23:58 [DC_Listener] WARNING: got device remove message for handle 13, but couldn't find the corresponding handle in the device list. This event will be ignored.
+12/27/2020 17:23:58 Remove device: 000001
+12/27/2020 17:23:58 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:23:58 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:24:01 RecordPair: 000001_00008030000154E11132402E
+12/27/2020 17:24:02 [DC_IOSCOT] wait_device: False
+12/27/2020 17:24:02 [DC_IOSCOT] wait_device Times: 1
+12/27/2020 17:24:02 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:24:02 [DC_IOSCOT] service_listen: True
+12/27/2020 17:24:02 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:24:03 Remove device: 00008030000154E11132402E
+12/27/2020 17:24:03 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:24:03 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:24:03 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:24:03 [DC_IOSCOT] wait_device: False
+12/27/2020 17:24:03 [DC_IOSCOT] wait_device Times: 2
+12/27/2020 17:24:03 [DC_IOSCOT] wait_device M2 start
+12/27/2020 17:24:03 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:24:03 [DC_IOSCOT] wait_device M2 result: False
+12/27/2020 17:24:03 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:24:03 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:24:03 ConnectionScanTask start
+12/27/2020 17:24:03 ConnectionScanTask End
+12/27/2020 17:24:03 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Unplug
+12/27/2020 17:24:03 OnDeviceConnectError:cancel
+12/27/2020 17:24:03 Add device: 000001
+12/27/2020 17:24:03 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:24:03 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:24:03 Add device: 00008030000154E11132402E
+12/27/2020 17:24:03 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:24:03 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:24:03 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:24:03 Connection inserter Start
+12/27/2020 17:24:03 Connection inserter create new device
+12/27/2020 17:24:03 Connection inserter device is iOS
+12/27/2020 17:24:03 Connection inserter AddService
+12/27/2020 17:24:03 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:24:04 [DC_Listener] WARNING: got device remove message for handle 14, but couldn't find the corresponding handle in the device list. This event will be ignored.
+12/27/2020 17:24:04 Remove device: 000001
+12/27/2020 17:24:04 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:24:04 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:24:04 GetConnectingPsnPair: 000001_00008030000154E11132402E
+12/27/2020 17:24:04 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:24:04 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:24:04 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:24:04 [DC_Listener] DoCheckService result: True
+12/27/2020 17:24:04 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:24:04 Connection step Checking
+12/27/2020 17:24:04 [DC_UsbTask] start wait system installing.
+12/27/2020 17:24:04 [DC_UsbTask] end wait system installing.
+12/27/2020 17:24:04 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:24:04 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:24:04 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:24:04 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:24:04 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:24:04 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:24:04 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:24:04 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:24:04 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:24:04 Connection step WaitReady
+12/27/2020 17:24:04 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:24:04 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:24:04 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:24:04 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:24:04 [DC_IOSCOT]InitService began
+12/27/2020 17:24:04 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:24:04 [DC_Listener] DoCheckService result: True
+12/27/2020 17:24:04 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:24:04 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:24:04 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:24:04 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:24:04 [DC_IOSCOT] service_listen: True
+12/27/2020 17:24:04 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:24:09 Remove device: 00008030000154E11132402E
+12/27/2020 17:24:09 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:24:09 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:24:09 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:24:09 [DC_IOSCOT] wait_device: False
+12/27/2020 17:24:09 [DC_IOSCOT] wait_device Times: 1
+12/27/2020 17:24:09 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:24:09 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:24:09 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:24:09 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Unplug
+12/27/2020 17:24:09 OnDeviceConnectError:cancel
+12/27/2020 17:24:09 Add device: 000001
+12/27/2020 17:24:09 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:24:09 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:24:10 Add device: 00008030000154E11132402E
+12/27/2020 17:24:10 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:24:10 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:24:10 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:24:10 Connection inserter Start
+12/27/2020 17:24:10 Connection inserter create new device
+12/27/2020 17:24:10 Connection inserter device is iOS
+12/27/2020 17:24:10 Connection inserter AddService
+12/27/2020 17:24:10 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:24:10 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:24:10 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:24:10 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:24:10 [DC_Listener] DoCheckService result: True
+12/27/2020 17:24:10 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:24:10 Connection step Checking
+12/27/2020 17:24:10 [DC_UsbTask] start wait system installing.
+12/27/2020 17:24:10 [DC_UsbTask] end wait system installing.
+12/27/2020 17:24:10 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:24:10 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:24:10 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:24:10 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:24:10 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:24:10 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:24:10 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:24:10 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:24:10 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:24:10 Connection step WaitReady
+12/27/2020 17:24:10 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:24:10 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:24:10 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:24:10 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:24:10 [DC_IOSCOT]InitService began
+12/27/2020 17:24:10 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:24:10 [DC_Listener] DoCheckService result: True
+12/27/2020 17:24:10 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:24:10 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:24:10 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:24:10 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:24:10 [DC_IOSCOT] service_listen: True
+12/27/2020 17:24:10 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:24:10 [DC_Listener] WARNING: got device remove message for handle 15, but couldn't find the corresponding handle in the device list. This event will be ignored.
+12/27/2020 17:24:10 Remove device: 000001
+12/27/2020 17:24:10 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:24:10 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:24:15 [DC_IOSCOT] wait_device: False
+12/27/2020 17:24:15 [DC_IOSCOT] wait_device Times: 1
+12/27/2020 17:24:15 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:24:15 [DC_IOSCOT] service_listen: True
+12/27/2020 17:24:15 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:24:15 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000)
+12/27/2020 17:24:15 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 Unplug
+12/27/2020 17:24:15 Device manager remove device SerialNumber: 000001
+12/27/2020 17:24:15 OnDeviceConnectError:cancel
+12/27/2020 17:24:15 Remove device: 00008030000154E11132402E
+12/27/2020 17:24:15 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:24:15 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:24:15 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:24:15 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:24:15 [DC_IOSCOT] wait_device: False
+12/27/2020 17:24:15 [DC_IOSCOT] wait_device Times: 2
+12/27/2020 17:24:15 [DC_IOSCOT] wait_device M2 start
+12/27/2020 17:24:15 [DC_IOSCOT] wait_device M2 result: False
+12/27/2020 17:24:15 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:24:15 ConnectionScanTask start
+12/27/2020 17:24:15 ConnectionScanTask End
+12/27/2020 17:24:15 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:24:15 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Unplug
+12/27/2020 17:24:16 Add device: 000001
+12/27/2020 17:24:16 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:24:16 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:24:16 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, Android, 000001)
+12/27/2020 17:24:16 Connection inserter Start
+12/27/2020 17:24:16 Connection inserter create new device
+12/27/2020 17:24:16 Connection inserter device is Android
+12/27/2020 17:24:16 Connection inserter AddService
+12/27/2020 17:24:16 Device manager add device SerialNumber: 000001
+12/27/2020 17:24:16 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:24:16 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:24:16 Add device: 00008030000154E11132402E
+12/27/2020 17:24:16 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:24:16 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:24:16 * daemon started successfully
+12/27/2020 17:24:16 <DC-AndroidCOT> Initialize Result: True
+12/27/2020 17:24:16 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:24:16 Connection inserter Start
+12/27/2020 17:24:16 Connection inserter create new device
+12/27/2020 17:24:16 Connection inserter device is iOS
+12/27/2020 17:24:16 Connection step Checking
+12/27/2020 17:24:16 Connection inserter AddService
+12/27/2020 17:24:16 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:24:16 [DC_UsbTask] start wait system installing.
+12/27/2020 17:24:16 [DC_UsbTask] end wait system installing.
+12/27/2020 17:24:16 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:24:16 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:24:16 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:24:16 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:24:16 [DC_UsbTask] usbconnecttask NeedDebuggingMode
+12/27/2020 17:24:16 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:24:16 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:24:16 Connection step WaitReady
+12/27/2020 17:24:16 Connection step NeedDebuggingMode
+12/27/2020 17:24:17 [DC_Listener] WARNING: got device remove message for handle 16, but couldn't find the corresponding handle in the device list. This event will be ignored.
+12/27/2020 17:24:23 Connection IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 disposed.
+12/27/2020 17:24:25 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 start update apple name file
+12/27/2020 17:24:25 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 end update apple name file
+12/27/2020 17:24:25 Download apple name file success 
+12/27/2020 17:24:25 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 start update apple name file
+12/27/2020 17:24:25 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 end update apple name file
+12/27/2020 17:24:25 Download apple name file success 
+12/27/2020 17:24:25 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 start update apple name file
+12/27/2020 17:24:25 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 end update apple name file
+12/27/2020 17:24:25 Download apple name file success 
+12/27/2020 17:24:25 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 start update apple name file
+12/27/2020 17:24:25 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 end update apple name file
+12/27/2020 17:24:25 Download apple name file success 
+12/27/2020 17:24:25 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 start update apple name file
+12/27/2020 17:24:25 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 end update apple name file
+12/27/2020 17:24:25 Download apple name file success 
+12/27/2020 17:24:25 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 start update apple name file
+12/27/2020 17:24:25 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 end update apple name file
+12/27/2020 17:24:25 Download apple name file success 
+12/27/2020 17:24:25 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 start update apple name file
+12/27/2020 17:24:25 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 end update apple name file
+12/27/2020 17:24:25 Download apple name file success 
+12/27/2020 17:24:25 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 start update apple name file
+12/27/2020 17:24:25 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 end update apple name file
+12/27/2020 17:24:25 Download apple name file success 
+12/27/2020 17:24:25 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 start update apple name file
+12/27/2020 17:24:25 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 end update apple name file
+12/27/2020 17:24:25 Download apple name file success 
+12/27/2020 17:24:25 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 start update apple name file
+12/27/2020 17:24:25 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:24:25 end update apple name file
+12/27/2020 17:24:25 Download apple name file success 
+12/27/2020 17:24:25 [DC_Listener] NotificationWaitHandles wait event: 00008030-000154E11132402E
+12/27/2020 17:24:25 [DC_Listener] NotificationWaitHandles wait event: 00008030-000154E11132402E
+12/27/2020 17:24:25 [DC_Listener] NotificationWaitHandles wait event: 00008030-000154E11132402E
+12/27/2020 17:24:25 [DC_Listener] NotificationWaitHandles wait event: 00008030-000154E11132402E
+12/27/2020 17:26:42 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 NeedDebuggingMode
+12/27/2020 17:26:42 OnDeviceConnectError:cancel
+12/27/2020 17:26:42 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:26:42 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:26:42 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:26:42 [DC_Listener] DoCheckService result: True
+12/27/2020 17:26:42 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:26:42 Connection step Checking
+12/27/2020 17:26:42 [DC_UsbTask] start wait system installing.
+12/27/2020 17:26:42 [DC_UsbTask] end wait system installing.
+12/27/2020 17:26:42 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:26:42 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:26:42 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:26:42 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:26:42 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:26:42 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:26:42 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:26:42 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:26:42 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:26:42 Connection step WaitReady
+12/27/2020 17:26:42 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:26:42 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:26:42 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:26:42 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:26:42 [DC_IOSCOT]InitService began
+12/27/2020 17:26:42 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:26:42 [DC_Listener] DoCheckService result: True
+12/27/2020 17:26:42 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:26:42 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:26:42 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:26:42 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:26:42 [DC_IOSCOT] service_listen: True
+12/27/2020 17:26:42 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:26:42 [DC_IOSCOT] wait_device: True
+12/27/2020 17:26:42 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:26:42 [DC_IOSCOT]InitService began
+12/27/2020 17:26:42 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:26:42 [DC_Listener] DoCheckService result: True
+12/27/2020 17:26:42 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:26:42 [DC_IOSCOT]DoWaitReady End DeviceListener 
+12/27/2020 17:26:42 [DC_IOSCOT] start WaitReady Task
+12/27/2020 17:26:42 WaitReadyTask start
+12/27/2020 17:26:42 WaitReadyState AllReady
+12/27/2020 17:26:42 Before WaitReady
+12/27/2020 17:26:42 Start WaitReady
+12/27/2020 17:26:42 Before HavePairedRecord
+12/27/2020 17:26:42 After HavePairedRecord
+12/27/2020 17:26:42 Connection step NeedUnlock
+12/27/2020 17:26:42 Add device: 0000000000000001
+12/27/2020 17:26:42 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:26:42 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:26:45 Remove device: 000001
+12/27/2020 17:26:45 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:26:45 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:26:45 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000)
+12/27/2020 17:26:45 Device manager remove device SerialNumber: 000001
+12/27/2020 17:26:45 Remove device: 0000000000000001
+12/27/2020 17:26:45 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:26:45 Remove device: 00008030000154E11132402E
+12/27/2020 17:26:45 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:26:45 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:26:45 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:26:45 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:26:45 Before WaitPaired
+12/27/2020 17:26:45 After WaitPaired
+12/27/2020 17:26:45 Can not Continue
+12/27/2020 17:26:45 [DC_IOSCOT]DoWaitReady End
+12/27/2020 17:26:45 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:26:45 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Unplug
+12/27/2020 17:26:45 OnDeviceConnectError:cancel
+12/27/2020 17:26:51 Add device: 000001
+12/27/2020 17:26:51 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:26:51 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:26:51 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, Android, 000001)
+12/27/2020 17:26:51 Connection inserter Start
+12/27/2020 17:26:51 Connection inserter create new device
+12/27/2020 17:26:51 Connection inserter device is Android
+12/27/2020 17:26:51 Connection inserter AddService
+12/27/2020 17:26:51 Device manager add device SerialNumber: 000001
+12/27/2020 17:26:51 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:26:51 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:26:51 Add device: 00008030000154E11132402E
+12/27/2020 17:26:51 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:26:51 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:26:51 * daemon started successfully
+12/27/2020 17:26:51 <DC-AndroidCOT> Initialize Result: True
+12/27/2020 17:26:51 Connection step Checking
+12/27/2020 17:26:51 [DC_UsbTask] start wait system installing.
+12/27/2020 17:26:51 [DC_UsbTask] end wait system installing.
+12/27/2020 17:26:51 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:26:51 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:26:51 Connection inserter Start
+12/27/2020 17:26:51 Connection inserter create new device
+12/27/2020 17:26:51 Connection inserter device is iOS
+12/27/2020 17:26:51 Connection inserter AddService
+12/27/2020 17:26:51 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:26:51 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:26:51 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:26:51 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:26:51 [DC_UsbTask] usbconnecttask NeedDebuggingMode
+12/27/2020 17:26:51 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:26:51 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:26:51 Connection step WaitReady
+12/27/2020 17:26:51 Connection step NeedDebuggingMode
+12/27/2020 17:26:52 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:26:52 start update apple name file
+12/27/2020 17:26:52 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:26:52 end update apple name file
+12/27/2020 17:26:52 Download apple name file success 
+12/27/2020 17:26:53 Connection IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 disposed.
+12/27/2020 17:26:56 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 NeedDebuggingMode
+12/27/2020 17:26:56 OnDeviceConnectError:cancel
+12/27/2020 17:26:56 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:26:56 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:26:56 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:26:56 [DC_Listener] DoCheckService result: True
+12/27/2020 17:26:56 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:26:56 Connection step Checking
+12/27/2020 17:26:56 [DC_UsbTask] start wait system installing.
+12/27/2020 17:26:56 [DC_UsbTask] end wait system installing.
+12/27/2020 17:26:56 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:26:56 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:26:56 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:26:56 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:26:56 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:26:56 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:26:56 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:26:56 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:26:56 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:26:56 Connection step WaitReady
+12/27/2020 17:26:56 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:26:56 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:26:56 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:26:56 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:26:56 [DC_IOSCOT]InitService began
+12/27/2020 17:26:56 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:26:56 [DC_Listener] DoCheckService result: True
+12/27/2020 17:26:56 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:26:56 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:26:56 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:26:56 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:26:56 [DC_IOSCOT] service_listen: True
+12/27/2020 17:26:56 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:26:57 Remove device: 000001
+12/27/2020 17:26:57 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:26:57 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:26:57 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000)
+12/27/2020 17:26:57 Device manager remove device SerialNumber: 000001
+12/27/2020 17:26:57 Remove device: 00008030000154E11132402E
+12/27/2020 17:26:57 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:26:57 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:26:57 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:26:57 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:26:57 [DC_IOSCOT] wait_device: False
+12/27/2020 17:26:57 [DC_IOSCOT] wait_device Times: 1
+12/27/2020 17:26:57 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:26:57 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:26:57 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Unplug
+12/27/2020 17:26:57 OnDeviceConnectError:cancel
+12/27/2020 17:26:58 Add device: 000001
+12/27/2020 17:26:58 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:26:58 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:26:58 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, Android, 000001)
+12/27/2020 17:26:58 Connection inserter Start
+12/27/2020 17:26:58 Connection inserter create new device
+12/27/2020 17:26:58 Connection inserter device is Android
+12/27/2020 17:26:58 Connection inserter AddService
+12/27/2020 17:26:58 Device manager add device SerialNumber: 000001
+12/27/2020 17:26:58 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:26:58 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:26:58 * daemon started successfully
+12/27/2020 17:26:58 <DC-AndroidCOT> Initialize Result: True
+12/27/2020 17:26:58 Connection step Checking
+12/27/2020 17:26:58 [DC_UsbTask] start wait system installing.
+12/27/2020 17:26:58 [DC_UsbTask] end wait system installing.
+12/27/2020 17:26:58 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:26:58 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:26:58 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:26:58 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:26:58 [DC_UsbTask] usbconnecttask NeedDebuggingMode
+12/27/2020 17:26:58 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:26:58 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:26:58 Connection step WaitReady
+12/27/2020 17:26:58 Connection step NeedDebuggingMode
+12/27/2020 17:26:58 Add device: 0000000000000001
+12/27/2020 17:26:58 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:26:58 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:26:58 Add device: 00008030000154E11132402E
+12/27/2020 17:26:58 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:26:58 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:26:58 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:26:58 Connection inserter Start
+12/27/2020 17:26:58 Connection inserter create new device
+12/27/2020 17:26:58 Connection inserter device is iOS
+12/27/2020 17:26:58 Connection inserter AddService
+12/27/2020 17:26:58 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:26:58 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:26:58 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:26:58 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:26:58 [DC_Listener] DoCheckService result: True
+12/27/2020 17:26:58 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:26:58 Connection step Checking
+12/27/2020 17:26:58 [DC_UsbTask] start wait system installing.
+12/27/2020 17:26:58 [DC_UsbTask] end wait system installing.
+12/27/2020 17:26:58 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:26:58 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:26:58 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:26:58 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:26:58 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:26:58 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:26:58 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:26:58 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:26:58 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:26:58 Connection step WaitReady
+12/27/2020 17:26:58 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:26:58 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:26:58 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:26:58 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:26:58 [DC_IOSCOT]InitService began
+12/27/2020 17:26:58 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:26:58 [DC_Listener] DoCheckService result: True
+12/27/2020 17:26:58 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:26:58 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:26:58 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:26:58 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:26:58 [DC_IOSCOT] service_listen: True
+12/27/2020 17:26:58 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:26:59 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:26:59 start update apple name file
+12/27/2020 17:26:59 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:26:59 end update apple name file
+12/27/2020 17:26:59 Download apple name file success 
+12/27/2020 17:26:59 [DC_Listener] NotificationWaitHandles wait event: 00008030-000154E11132402E
+12/27/2020 17:26:59 [DC_Listener] NotificationWaitHandles wait event: 00008030-000154E11132402E
+12/27/2020 17:26:59 [DC_IOSCOT] wait_device: True
+12/27/2020 17:26:59 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:26:59 [DC_IOSCOT]InitService began
+12/27/2020 17:26:59 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:26:59 [DC_Listener] DoCheckService result: True
+12/27/2020 17:26:59 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:26:59 [DC_IOSCOT]DoWaitReady End DeviceListener 
+12/27/2020 17:26:59 [DC_IOSCOT] start WaitReady Task
+12/27/2020 17:26:59 WaitReadyTask start
+12/27/2020 17:26:59 WaitReadyState AllReady
+12/27/2020 17:26:59 Before WaitReady
+12/27/2020 17:26:59 Start WaitReady
+12/27/2020 17:26:59 Before HavePairedRecord
+12/27/2020 17:26:59 After HavePairedRecord
+12/27/2020 17:26:59 Connection step NeedUnlock
+12/27/2020 17:26:59 Before WaitPaired
+12/27/2020 17:26:59 Remove device: 000001
+12/27/2020 17:26:59 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:26:59 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:27:04 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000)
+12/27/2020 17:27:04 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 Unplug
+12/27/2020 17:27:04 Device manager remove device SerialNumber: 000001
+12/27/2020 17:27:04 OnDeviceConnectError:cancel
+12/27/2020 17:27:04 Remove device: 0000000000000001
+12/27/2020 17:27:04 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:27:04 Remove device: 00008030000154E11132402E
+12/27/2020 17:27:04 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:27:04 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, 00008030000154E11132402E)
+12/27/2020 17:27:04 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000)
+12/27/2020 17:27:04 After WaitPaired
+12/27/2020 17:27:04 Can not Continue
+12/27/2020 17:27:04 [DC_IOSCOT]DoWaitReady End
+12/27/2020 17:27:04 [DC_UsbTask] end GetConnectTask : False
+12/27/2020 17:27:04 Device manager remove device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:27:04 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Unplug
+12/27/2020 17:27:04 OnDeviceConnectError:cancel
+12/27/2020 17:27:05 Add device: 000001
+12/27/2020 17:27:05 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:27:05 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:27:05 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, Android, 000001)
+12/27/2020 17:27:05 Connection inserter Start
+12/27/2020 17:27:05 Connection inserter create new device
+12/27/2020 17:27:05 Connection inserter device is Android
+12/27/2020 17:27:05 Connection inserter AddService
+12/27/2020 17:27:05 Device manager add device SerialNumber: 000001
+12/27/2020 17:27:05 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:27:05 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:27:05 Add device: 00008030000154E11132402E
+12/27/2020 17:27:05 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:27:05 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:27:05 * daemon started successfully
+12/27/2020 17:27:05 <DC-AndroidCOT> Initialize Result: True
+12/27/2020 17:27:05 Connection step Checking
+12/27/2020 17:27:05 [DC_UsbTask] start wait system installing.
+12/27/2020 17:27:05 [DC_UsbTask] end wait system installing.
+12/27/2020 17:27:05 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:27:05 ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000, iOS, 00008030000154E11132402E)
+12/27/2020 17:27:05 Connection inserter Start
+12/27/2020 17:27:05 Connection inserter create new device
+12/27/2020 17:27:05 Connection inserter device is iOS
+12/27/2020 17:27:05 Connection inserter AddService
+12/27/2020 17:27:05 Device manager add device SerialNumber: 00008030000154E11132402E
+12/27/2020 17:27:05 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:27:05 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:27:05 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:27:05 [DC_UsbTask] usbconnecttask NeedDebuggingMode
+12/27/2020 17:27:05 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:27:05 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:27:05 Connection step WaitReady
+12/27/2020 17:27:05 Connection step NeedDebuggingMode
+12/27/2020 17:27:05 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:27:05 start update apple name file
+12/27/2020 17:27:05 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:27:05 end update apple name file
+12/27/2020 17:27:05 Download apple name file success 
+12/27/2020 17:27:09 Connection IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 disposed.
+12/27/2020 17:27:12 Connection IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 disposed.
+12/27/2020 17:27:23 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000 NeedDebuggingMode
+12/27/2020 17:27:23 OnDeviceConnectError:cancel
+12/27/2020 17:27:23 Connection begin IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000
+12/27/2020 17:27:23 [DC_UsbTask] try connect, Times: 1
+12/27/2020 17:27:23 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:27:23 [DC_Listener] DoCheckService result: True
+12/27/2020 17:27:23 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:27:23 Connection step Checking
+12/27/2020 17:27:23 [DC_UsbTask] start wait system installing.
+12/27/2020 17:27:23 [DC_UsbTask] end wait system installing.
+12/27/2020 17:27:23 [DC_UsbTask] start wait FindExpectInterface
+12/27/2020 17:27:23 [DC_UsbTask] end wait FindExpectInterface.
+12/27/2020 17:27:23 [DC_UsbTask] start PrepareCheck.
+12/27/2020 17:27:23 [DC_UsbTask] end PrepareCheck.
+12/27/2020 17:27:23 [DC_UsbTask] start GetConnectTask
+12/27/2020 17:27:23 [DC-BSCOT] BC-DoConnection enter..
+12/27/2020 17:27:23 [DC-BSCOT] BC-GetWaitReadyTask skip..
+12/27/2020 17:27:23 [DC-BSCOT] BC-GetWaitReadyTask enter..
+12/27/2020 17:27:23 [DC-BSCOT] BC-WaitReadyWorker enter..
+12/27/2020 17:27:23 Connection step WaitReady
+12/27/2020 17:27:23 [DC_IOSCOT]DoWaitReady Start
+12/27/2020 17:27:23 [DC_IOSCOT] DoWaitReady before WaitDriverInstallDone
+12/27/2020 17:27:23 [DC_IOSCOT] DoWaitReady End WaitDriverInstallDone
+12/27/2020 17:27:23 [DC_IOSCOT] DoWaitReady before InitService
+12/27/2020 17:27:23 [DC_IOSCOT]InitService began
+12/27/2020 17:27:23 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:27:23 [DC_Listener] DoCheckService result: True
+12/27/2020 17:27:23 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:27:23 [DC_IOSCOT] DoWaitReady end InitService
+12/27/2020 17:27:23 [DC_IOSCOT] start listen and wait.
+12/27/2020 17:27:23 [DC_IOSCOT] wait ready STEP_1
+12/27/2020 17:27:23 [DC_IOSCOT] service_listen: True
+12/27/2020 17:27:23 [DC_IOSCOT] wait ready STEP_2
+12/27/2020 17:27:23 [DC_IOSCOT] wait_device: True
+12/27/2020 17:27:23 [DC_IOSCOT] listen and wait both ok.
+12/27/2020 17:27:23 [DC_IOSCOT]InitService began
+12/27/2020 17:27:23 [DC_IOSCOT] Initialize ios start.
+12/27/2020 17:27:23 [DC_Listener] DoCheckService result: True
+12/27/2020 17:27:23 [DC_IOSCOT] Initialize, ios service running
+12/27/2020 17:27:23 [DC_IOSCOT]DoWaitReady End DeviceListener 
+12/27/2020 17:27:23 [DC_IOSCOT] start WaitReady Task
+12/27/2020 17:27:23 WaitReadyTask start
+12/27/2020 17:27:23 WaitReadyState AllReady
+12/27/2020 17:27:23 Before WaitReady
+12/27/2020 17:27:23 Start WaitReady
+12/27/2020 17:27:23 Before HavePairedRecord
+12/27/2020 17:27:23 After HavePairedRecord
+12/27/2020 17:27:23 Add device: 0000000000000001
+12/27/2020 17:27:23 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:27:23 AddUSBConnection device: IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/USB 2.0 BILLBOARD             @14321000
+12/27/2020 17:27:24 Connection step Ready
+12/27/2020 17:27:24 [DC_IOSCOT]DoWaitReady End
+12/27/2020 17:27:24 [DC-BSCOT] BC-GetWaitReadyTask result: c
+12/27/2020 17:27:24 Connection step StartSession
+12/27/2020 17:27:24 Connection step LoadInfo
+12/27/2020 17:27:24 Download apple name file path is: /Users/xabierzuriarrain/.config/Wondershare/MobileTransPro/Drivers/AppleiOSNames.plist
+12/27/2020 17:27:24 start update apple name file
+12/27/2020 17:27:24 Old apple name path is: /Applications/MobileTrans.app/Contents/Resources/Drivers/AppleiOSNames.plist
+12/27/2020 17:27:24 end update apple name file
+12/27/2020 17:27:24 Download apple name file success 
+12/27/2020 17:27:24 Connection step Finished
+12/27/2020 17:27:24 [DC_UsbTask] end GetConnectTask : True
+12/27/2020 17:27:24 Manufacturer:Apple Inc.
+12/27/2020 17:27:24 Model:iPhone SE (2nd generation)
+12/27/2020 17:27:24 SerialNumber:FFMDN1W2PLK3
+12/27/2020 17:27:24 OSPlatform:iOS
+12/27/2020 17:27:24 OSVersion:14.3
+12/27/2020 17:27:24 Carrier:Orange España
+12/27/2020 17:27:24 Name:iPhone
+12/27/2020 17:27:24 Locale:es_DE
+12/27/2020 17:27:24 Connection end IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/iPhone@14340000 Online
+12/27/2020 17:27:24 Connection step Completed
+12/27/2020 17:27:25 Remove device: 000001
+12/27/2020 17:27:25 ConnectionHub OnDeviceArrival:IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000
+12/27/2020 17:27:25 ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000, 000001)
+12/27/2020 17:27:25 ConnectionHub.OnConnectionLost(IOService:/IOResources/AppleUSBHostResourcesTypeCBPC/AppleUSBLegacyRoot/AppleUSBXHCI@00000000/USB 10/100/1000 LAN@00210000)
+12/27/2020 17:27:25 Device manager remove device SerialNumber: 000001
