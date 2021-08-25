@@ -12,3 +12,4 @@ I'm learning about dotfiles.
 - Trackpad (Three finger drag and tap to click)
 - Git (config and SSH)
 - Alfred (turn off Spotlight shortcut and use for Alfred)
+- Snappy (turn off cmd+shift+4) for screenshots and use for Snappy.
