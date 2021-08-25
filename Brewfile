@@ -58,8 +58,6 @@ cask "alfred"
 # Browser for SQLite databases
 cask "db-browser-for-sqlite"
 # Client for the Dropbox cloud storage service
-cask "dropbox"
-# Git client focusing on productivity
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
