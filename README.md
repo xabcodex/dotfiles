@@ -12,3 +12,4 @@ I'm learning about dotfiles.
 - Trackpad (Three finger drag and tap to click)
 - .zshrc
 - Git (config and SSH)
+- Homebrew install
