@@ -10,5 +10,13 @@ else
   n latest
 fi
 
+# Install Global NPM Packages
+npm instal --global firebase-tools
+npm instal --global @angular/cli
+npm instal --global @ionic/cli
+npm instal --global typescript
+npm instal --global json-server
+npm instal --global http-server
 
-
+echo "Global NPM Packages Installed:"
+npm list --global --depth=0
