@@ -2,6 +2,10 @@
 
 I'm learning about dotfiles.
 
+## Part 1
+
+[Great course!](https://www.udemy.com/course/dotfiles-from-start-to-finish-ish/)
+
 ## TODO
 
 - Terminal Preferences
