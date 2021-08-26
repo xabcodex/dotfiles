@@ -62,6 +62,8 @@ brew "tmux"
 brew "tree"
 # Access X11 clipboards from the command-line
 brew "xclip"
+# JavaScript package manager
+brew "yarn"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
