@@ -17,6 +17,7 @@ npm instal --global @ionic/cli
 npm instal --global typescript
 npm instal --global json-server
 npm instal --global http-server
+npm instal --global trash-cli
 
 echo "Global NPM Packages Installed:"
 npm list --global --depth=0

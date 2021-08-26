@@ -15,6 +15,7 @@ alias exa='exa -laFh --git'
 alias man=batman
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
+alias rm=trash
 
 # Cusotmize Prompt(s)
 PROMPT='
