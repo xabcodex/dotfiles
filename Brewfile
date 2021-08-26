@@ -32,6 +32,8 @@ brew "less"
 brew "mas"
 # Modern programming language in the Lisp/Scheme family
 brew "minimal-racket"
+# Node version management
+brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # Ambitious Vim-fork focused on extensibility and agility
