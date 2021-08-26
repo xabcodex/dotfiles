@@ -30,6 +30,8 @@ brew "httpie"
 brew "mas"
 # Modern programming language in the Lisp/Scheme family
 brew "minimal-racket"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Tiny, lightning fast, feature-packed file manager
