@@ -26,6 +26,8 @@ brew "git", link: false
 brew "grip"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Pager program similar to more
+brew "less"
 # Mac App Store command-line interface
 brew "mas"
 # Modern programming language in the Lisp/Scheme family
