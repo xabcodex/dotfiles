@@ -60,6 +60,8 @@ brew "tmux"
 brew "tree"
 # Access X11 clipboards from the command-line
 brew "xclip"
+# UNIX shell (command interpreter)
+brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
